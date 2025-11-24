@@ -4,5 +4,6 @@ export default {
   build: {
     outDir: './dist',
   },
-  base: './~miikavs/XR/my-three-js',
+  // base: './~miikavs/XR/my-three-js',
+  base: './',
 };
