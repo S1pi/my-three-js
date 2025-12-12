@@ -36,10 +36,10 @@ function init() {
 
       // model
 
-      const loader = new GLTFLoader().setPath('/');
+      const loader = new GLTFLoader().setPath('landscape/');
 
       // Load landscape
-      loader.load('landscape/Landscape-grass.glb', async function (gltf) {
+      loader.load('Landscape-grass.glb', async function (gltf) {
         const model = gltf.scene;
         model.position.x = 0;
         await renderer.compileAsync(model, camera, scene);
